@@ -1,0 +1,24 @@
+{
+    "name": "codesmith445/qoute",
+    "description": "A Laravel package to return random quotes.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codesmith445\\Qoute\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codesmith445\\Qoute\\QouteServiceProvider"
+            ],
+            "aliases": {
+                "Qoute": "Codesmith445\\Qoute\\Facades\\Qoute"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
+
